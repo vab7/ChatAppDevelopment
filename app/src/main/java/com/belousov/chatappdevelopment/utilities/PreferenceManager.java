@@ -2,6 +2,7 @@ package com.belousov.chatappdevelopment.utilities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 public class PreferenceManager {
     private final SharedPreferences sharedPreferences;
@@ -27,6 +28,7 @@ public class PreferenceManager {
     }
 
     public String getString(String key) {
+        Log.d("Log", "");
         return sharedPreferences.getString(key, null);
     }
 
