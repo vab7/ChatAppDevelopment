@@ -28,7 +28,6 @@ public class PreferenceManager {
     }
 
     public String getString(String key) {
-        Log.d("Log", "");
         return sharedPreferences.getString(key, null);
     }
 
