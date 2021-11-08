@@ -32,7 +32,7 @@ import java.util.List;
 public class MainActivity extends BaseActivity implements ConversionListener {
 
     private ActivityMainBinding binding;
-    private PreferenceManager preferenceManager;
+    private com.belousov.chatappdevelopment.utilities.PreferenceManager preferenceManager;
     private List<ChatMessage> conversations;
     private RecentConversationsAdapter conversationsAdapter;
     private FirebaseFirestore firestore;
